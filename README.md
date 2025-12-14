@@ -28,6 +28,8 @@ function App() {
 
 React displays whatever is returned from the component.
 
+In javaScript we ha to o a lot of things to upate variables in webpage like getting elements by id/classname etc then updating them one by one but in react it is very easy because of useState 
+
 useState Hook 
 useState is used to store and update data in React.
 
@@ -43,6 +45,9 @@ Buttons use functions to change the counter value.
 setCount(count + 1); // increase value
 setCount(count - 1); // decrease value
 
+I changed these above functions into real nes like i took them out of onClick and made them outside of buttons and used if (conditons) to each so the values can be in a range from 0 to 20 only 
+
+i learned that in react we use variables and funtions in same way when it comes to call funtions eg. {count} and  {addValue} one is variable and other one is function
 Why return is Used
 
 Every React component must return JSX.
