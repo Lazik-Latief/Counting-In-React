@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(2);
+  const [count, setCount] = useState(0);
 
   //increase counter (max limit = 20)
   const addValue = ()=>{
