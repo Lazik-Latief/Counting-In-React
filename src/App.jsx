@@ -11,11 +11,32 @@ function App() {
     }
   };
 
+   //increase counter using prevCounter 
+  const addFive = ()=>{
+   
+      setCount(prevCount  => prevCount + 1)
+       setCount(prevCount => prevCount + 1)
+        setCount(prevCount => prevCount + 1)
+         setCount(prevCount => prevCount + 1)
+          setCount(prevCount => prevCount + 1)   
+  };
+
+
   //decrease counter (min limit = 0)
   const removeValue = ()=>{
     if(count>0){
       setCount(count - 1)
     }
+  };
+
+  //decrease counter using prevCounter 
+  const removeFive = ()=>{
+   
+      setCount(prevCount  => prevCount - 1)
+       setCount(prevCount => prevCount - 1)
+        setCount(prevCount => prevCount - 1)
+         setCount(prevCount => prevCount - 1)
+          setCount(prevCount => prevCount - 1)   
   };
 
 
@@ -29,13 +50,28 @@ function App() {
 
       <div className="buttons">
         <button className="btn-add" onClick={addValue}>
-          Add value by 1 to : {count}
+          Add value 'max 20' by 1 to : {count}
         </button>
 
+      <div className="buttons">
+        <button className="btn-add" onClick={addFive}>
+          Add value by 5 to : {count}
+        </button>
+
+
+
         <button className="btn-remove" onClick={removeValue}>
-          Remove value by 1 from : {count}
+          Remove value 'min 0' by 1 from : {count}
+        </button>
+
+        <div className="buttons">
+        <button className="btn-add" onClick={removeFive}>
+          Add Remove by 5 to : {count}
         </button>
       </div>
+      </div>
+      
+    </div>
 
       <div className="footer">footer : {count}</div>
     </div>
