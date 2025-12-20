@@ -1,6 +1,6 @@
-# React Counter App
+## React Counter App 
 
-## Introduction
+ # #Introduction 
 This is a simple Counter application built using React with Vite.
 The app increases and decreases a number when buttons are clicked.
 This project helped me understand basic React concepts.
@@ -20,7 +20,7 @@ This project helped me understand basic React concepts.
 ## React Component
 A React component is a JavaScript function that returns UI.
 
-```js
+js
 function App() {
   return <h1>Counter App</h1>;
 }
@@ -63,6 +63,10 @@ How React components work
 How useState updates the UI
 How functions handle button clicks
 Basic JSX and component structure
+
+Screenshot:
+<img width="605" height="439" alt="image" src="https://github.com/user-attachments/assets/bd17bebc-c9bb-4351-8d6e-77afa0176a55" />
+
 
 Conclusion
 
